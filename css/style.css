@@ -1,0 +1,45 @@
+
+.icons-box{
+    background-color: rgb(207, 204, 204);
+}
+/* incon-card e una classe presente nel js la quale possiamo richiamare nello style senza passare per l'html */
+.icon-card {
+    flex-basis: calc(100% / 5);
+    max-width: calc(100% / 5); /* da rivedere per il mobile */
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* altre classi che abbiamo definito nel js  */
+.icon-card-inner{
+    background-color: #fff;
+    padding: 15px;
+    text-align: center;
+    border: 1px black solid;
+    border-radius: 10px;
+    height: 120px;
+    /* display: flex;  */
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    
+}
+.icon-card-inner .icon{
+    width: 100%;
+    font-size: 30px;
+}
+
+.icon-card-inner.name{
+    text-transform: uppercase;
+    font-size: 10px;
+}
+
+.icon.animal{
+    color: rgb(0, 0, 255)
+}
+.icon.vegetable{
+    color: orange;
+}
+.icon.user{
+    color: purple;
+}
